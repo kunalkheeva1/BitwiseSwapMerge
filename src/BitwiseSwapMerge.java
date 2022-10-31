@@ -4,6 +4,6 @@ public class BitwiseSwapMerge {
         byte c;
         c = (byte) (a<<4);
         c= (byte) (c | b);
-        System.out.println(Integer.toBinaryString(c));
+        System.out.println((c & 0b11110000)>>4);
     }
 }
