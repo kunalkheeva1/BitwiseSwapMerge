@@ -4,6 +4,6 @@ public class BitwiseSwapMerge {
         byte c;
         c = (byte) (a<<4);
         c= (byte) (c | b);
-        System.out.println((c & 0b11110000)>>4);// to get the actual value right shit it agian for positioning
+        System.out.println(c & 0b00001111); // now no shift as they are alredy positioned well
     }
 }
